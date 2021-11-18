@@ -62,7 +62,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex min-h-screen justify-center items-center lg:px-28 px-4">
-                    <div className="flex-1 py-4">
+                    <div className="flex-1 py-4 self-start">
                         <h1 className="font-bold text-xl font-serif py-1">Six Days In Dubai</h1>
                         <ul>
                             <li className="w-8 h-8 flex items-center justify-center">FEB</li>
