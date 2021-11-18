@@ -10,7 +10,7 @@ export default function Home() {
             </Head>
 
             <main className="">
-                <div className="pb-1 pt-2 border-b border-gray-500 absolute w-full">
+                <div className="pb-1 pt-2 border-b border-gray-500 w-full">
                     <div className="flex justify-between lg:px-28 px-4">
                         <div>
                             <p className="text-sm">Remaining Days to my Trip</p>
@@ -61,21 +61,32 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="absolute top-24 lg:left-28 left-4">
-                    <h1 className="font-bold text-xl font-serif py-1">Six Days In Dubai</h1>
-                    <ul>
-                        <li className="w-8 h-8 flex items-center justify-center">FEB</li>
-                        <li className="bg-opacity-50 bg-black text-yellow-300 w-8 h-8 rounded-full flex items-center justify-center border-yellow-300 border-2 text-sm font-bold font-mono">
-                            15
-                        </li>
-                        <li className="w-8 h-10 flex items-center justify-center text-xs">16</li>
-                        <li className="w-8 h-10 flex items-center justify-center text-xs">17</li>
-                        <li className="w-8 h-10 flex items-center justify-center text-xs">18</li>
-                        <li className="w-8 h-10 flex items-center justify-center text-xs">19</li>
-                        <li className="w-8 h-10 flex items-center justify-center text-xs">20</li>
-                    </ul>
-                </div>
-                <div className="flex px-14 py-4 h-screen justify-center items-center">
+                <div className="flex min-h-screen justify-center items-center lg:px-28 px-4">
+                    <div className="flex-1 py-4">
+                        <h1 className="font-bold text-xl font-serif py-1">Six Days In Dubai</h1>
+                        <ul>
+                            <li className="w-8 h-8 flex items-center justify-center">FEB</li>
+                            <li className="bg-opacity-50 bg-black text-yellow-300 w-8 h-8 rounded-full flex items-center justify-center border-yellow-300 border-2 text-sm font-bold font-mono">
+                                15
+                            </li>
+                            <li className="w-8 h-10 flex items-center justify-center text-xs">
+                                16
+                            </li>
+                            <li className="w-8 h-10 flex items-center justify-center text-xs">
+                                17
+                            </li>
+                            <li className="w-8 h-10 flex items-center justify-center text-xs">
+                                18
+                            </li>
+                            <li className="w-8 h-10 flex items-center justify-center text-xs">
+                                19
+                            </li>
+                            <li className="w-8 h-10 flex items-center justify-center text-xs">
+                                20
+                            </li>
+                        </ul>
+                    </div>
+
                     <div className="m-auto">
                         <div className="flex">
                             <div className="rounded-full w-20 h-20 p-2 flex items-center justify-center bg-white">
@@ -111,6 +122,8 @@ export default function Home() {
                             </button>
                         </div>
                     </div>
+
+                    <div className="flex-1"></div>
                 </div>
             </main>
         </div>
