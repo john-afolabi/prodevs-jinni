@@ -2,15 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities{
-    .blur-filter{
+@layer utilities {
+    .blur-filter {
         backdrop-filter: blur(5px);
     }
 }
-.div-w{
-    width:46%
+.div-w {
+    width: 46%;
 }
-.head-t{
+
+.head-t {
     font-size: 2.8rem;
     line-height: 50px;
+}
+
+.main {
+    min-height: calc(100vh - 77px);
 }
