@@ -10,6 +10,8 @@
     background-image: url('/bgimage.webp');
     background-repeat: no-repeat;
     background-size: cover, 90%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 .navtext {
     font-size: 0.9rem;

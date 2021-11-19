@@ -61,10 +61,10 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="main flex justify-center items-center lg:px-28 p-4">
+                <div className="main flex flex-col md:flex-row justify-center items-center lg:px-28 p-4">
                     <div className="flex-1 self-start">
                         <h1 className="font-bold text-xl font-serif py-1">Six Days In Dubai</h1>
-                        <ul>
+                        <ul className="flex flex-row md:flex-col items-center md:items-start">
                             <li className="w-8 h-8 flex items-center justify-center">FEB</li>
                             <li className="bg-opacity-50 bg-black text-yellow-300 w-8 h-8 rounded-full flex items-center justify-center border-yellow-300 border-2 text-sm font-bold font-mono">
                                 15
