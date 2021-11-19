@@ -61,7 +61,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="main flex flex-col md:flex-row justify-center items-center lg:px-28 p-4">
+                <div className="main flex flex-col md:flex-row gap-y-8 md:gap-0 justify-center items-center lg:px-28 p-4">
                     <div className="flex-1 self-start">
                         <h1 className="font-bold text-xl font-serif py-1">Six Days In Dubai</h1>
                         <ul className="flex flex-row md:flex-col items-center md:items-start">
